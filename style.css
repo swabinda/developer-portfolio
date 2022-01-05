@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 40px;
+}
+.flexible-container{
+	display: flex;
+	margin-bottom: 100px;
+}
+.top-bg{
+	background-image: url(images/top-banner.png);
+	background-repeat: no-repeat;
+}
+.colorful-font{
+	color: orange;
+}
+.half-width{
+	width: 50%;
+	margin-left: 2%;
+}
+.half-width img{
+	width: 80%;
+}
+.button{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-image: linear-gradient(orange, tomato);
+	padding: 10px 40px;
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.experience-area{
+	background-image: url(images/exp-bg.png);
+	background-repeat: no-repeat;
+}
+.experience-item{
+	width: 40%;
+	margin: 0 5% 0 5%;
+	box-shadow: 10px 10px 30px gray;
+	padding-left: 10px;
+}
+#full-stack-dev{
+	border-left: 7px solid;
+	border-image: linear-gradient( tomato, orange);
+	border-image-slice: 1;
+}
+#junior-web-dev{
+	border-left: 7px solid;
+	border-image: linear-gradient( cyan, blue);
+	border-image-slice: 1;
+}
+footer{
+	text-align: center;
+}
